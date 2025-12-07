@@ -1,0 +1,21 @@
+.fruitcomponent {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    max-width: 50%;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+button:disabled {
+    border: 1px solid grey;
+}
