@@ -166,7 +166,7 @@ function App() {
                     >
                         <option value="iedere_week">Iedere week</option>
                         <option value="om_de_week">Om de week</option>
-                        <option value="s_avonds">'s avonds</option>
+                        <option value="iedere_maand">Iedere maand</option>
                     </select>
                 </div>
 
@@ -188,8 +188,8 @@ function App() {
                             <input
                                 type="radio"
                                 name="timeOfDayValue"
-                                value="s_avonds"
-                                checked={contactFormState.timeOfDayValue === 's_avonds'}
+                                value="avond"
+                                checked={contactFormState.timeOfDayValue === 'avond'}
                                 onChange={handleChange}
                             />
                             's Avonds
@@ -220,7 +220,7 @@ function App() {
                     </label>
                 </div>
 
-                <button type="submit" className="submit-btn">
+                <button type="submit" className="submit-button">
                     Verzend
                 </button>
             </form>
